@@ -1,0 +1,10 @@
+numbers=[12,45,-78,45,2,7,9,-90,78,65,43,-12,62,94,49,18,-1,12,-45,-71,38]
+positive=[]
+for i in range(len(numbers)):
+    if numbers[i]>0:
+        positive.append(numbers[i])
+print("list of all numbers",numbers)
+print("list of all positive numbersfrom the above list",positive)
+
+    
+
