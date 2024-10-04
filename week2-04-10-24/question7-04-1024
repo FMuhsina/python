@@ -1,0 +1,3 @@
+l=int(input("Enter the limit :"))
+for i in range(l):
+    print((i+1)**2)
