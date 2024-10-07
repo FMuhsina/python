@@ -1,9 +1,0 @@
-sub1=int(input("Enter the mark of first subject :"))
-sub2=int(input("Enter the mark of second subject :"))
-sub3=int(input("Enter the mark of third subject :"))
-sub4=int(input("Enter the mark of fourth subject :"))
-sub5=int(input("Enter the mark of fifth subject :"))
-total=sub1+sub2+sub3+sub4+sub5
-perc=(total/500)*100
-print("total marks=",total)
-print("total marks in percentage=",perc)
