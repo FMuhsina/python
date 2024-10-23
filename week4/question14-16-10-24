@@ -1,0 +1,5 @@
+list=[]
+element=input("Enter an element which is to be inserted to the list : ")
+print("list before adding element :",list)
+list.append(element)
+print("list after adding element :",list)
