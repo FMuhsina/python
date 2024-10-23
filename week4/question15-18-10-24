@@ -1,0 +1,10 @@
+text=input("Enter a string :")
+words=text.split(" ")
+print("words in the entered string : ",words)
+w=[]
+for i in range(0,len(words)):
+    if words[i] not in w :
+        w.append(words[i])
+for i in range(0,len(w)):      
+    x=words.count(w[i])
+    print("number of",w[i],"present in entered string = ",x);
