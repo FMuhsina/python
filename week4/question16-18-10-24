@@ -1,0 +1,9 @@
+names=[]
+x=0
+size=int(input("Enter number of names in the list : "))
+for i in range(0,size):
+    print("enter name ",i+1,":")
+    name=input()
+    names.append(name)
+    x=x+name.count("a")+name.count("A")   
+print("Number 'A or a'present in the list of names = ",x)
