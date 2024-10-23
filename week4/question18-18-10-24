@@ -1,0 +1,21 @@
+integers1=[]
+integers2=[]
+size1=int(input("Enter number of integers of first list : "))
+print("Enter ",size1," integers :")
+for i in range(0,size1):
+    integer=int(input())
+    integers1.append(integer)
+size2=int(input("Enter number of integers of second list : "))
+print("Enter ",size2," integers :")
+for i in range(0,size2):
+    integer=int(input())
+    integers2.append(integer)
+print("first integer list :",integers1)      
+print("second integer list :",integers2)
+if len(integers1)==len(integers2):
+    print("Number of elements in two lists are same.")
+if sum(integers1)==sum(integers2):
+    print("sum of all elements in first list = sum of all elements in second lists.")
+for i in range(0,size1):
+        if integers1[i] in integers2:
+            print(integers1[i]," is present in both lists.")
