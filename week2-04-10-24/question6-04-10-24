@@ -4,7 +4,7 @@ for i in range(len(numbers)):
     if numbers[i]>0:
         positive.append(numbers[i])
 print("list of all numbers",numbers)
-print("list of all positive numbersfrom the above list",positive)
+print("list of all positive numbers from the above list",positive)
 
     
 
