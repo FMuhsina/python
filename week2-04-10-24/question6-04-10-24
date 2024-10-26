@@ -1,4 +1,4 @@
-numbers=[12,45,-78,45,2,7,9,-90,78,65,43,-12,62,94,49,18,-1,12,-45,-71,38]
+numbers=list(map(int,input("Enter the numbers seperated by space").split()))
 positive=[]
 for i in range(len(numbers)):
     if numbers[i]>0:
