@@ -1,4 +1,4 @@
-print("Upper limit and Lower limit are greater than or equal to 1000")
+print("Upper limit and Lower limit are between 1000 and 9999")
 l=int(input("Enter a lower limit :"))
 u=int(input("Enter an upper limit :"))
 perfect_square_digits = {'0', '1', '4', '9'} 
