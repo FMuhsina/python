@@ -1,0 +1,5 @@
+steps=int(input("enter the number of steps of pyramid :"))
+for i in range(steps):
+    for j in range(i+1):
+        print((i+1)*(j+1), end=" ")
+    print() 
