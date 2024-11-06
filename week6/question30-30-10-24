@@ -1,0 +1,6 @@
+list_words=list(input("Enter the words in list seperated by comma :").split(","))
+big=0
+for word in list_words:
+    if big<len(word):
+        big=len(word)
+print("length of longest word in the list :",big)
