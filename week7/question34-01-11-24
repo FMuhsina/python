@@ -1,0 +1,22 @@
+student_details={}
+student_details['Name']=input("Name :")
+student_details['Roll_no']=input("Roll_no :")
+student_details['Reg_no']=input("Reg_no:")
+student_details['Department']=input("Department: ")
+student_details['Semester']=input("Semester:") 
+print("Details os Student :",student_details)
+student_details['Total_Marks']=int(input("Total_Marks:"))
+print("Details os Student :",student_details)
+if student_details['Total_Marks']>=90:
+    student_details['grade']='A'
+elif student_details['Total_Marks']>=82:
+    student_details['grade']='B'
+elif student_details['Total_Marks']>=75:
+    student_details['grade']='C'
+elif student_details['Total_Marks']>=60:
+    student_details['grade']='D'
+elif student_details['Total_Marks']>=50:
+    student_details['grade']='P'
+else :
+    student_details['grade']='F'
+print("Details os Student :",student_details)
