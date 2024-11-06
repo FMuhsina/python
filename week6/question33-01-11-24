@@ -1,0 +1,5 @@
+sguares={}
+for i in range(1,16):
+    sguares[i]=i*i
+print("The dictionary of numbers and their squares from 1-15 :")
+print(sguares)
