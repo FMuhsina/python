@@ -1,0 +1,6 @@
+from MyPackages import fibonacci
+from MyPackages import factorial
+num=int(input("Enter a number :"))
+fibonacci.fib(num)
+print()
+factorial.fact(num)
